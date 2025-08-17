@@ -1,0 +1,45 @@
+.summary-container {
+  margin-top: 100px;
+  max-width: 600px;
+  margin-inline: auto;
+  text-align: center;
+  padding: 2rem;
+  background-color: #153257;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.summary-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: burlywood;
+}
+
+.summary-container p {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+  color: beige;
+}
+
+.summary-container h2 {
+  margin-top: 1.5rem;
+  color: beige;
+}
+
+.again-btn {
+  margin-top: 2rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #14213d;
+  color: beige;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.again-btn:hover {
+  transform: scale(1.05);
+  background-color: #14213d;
+  color: wheat;
+}

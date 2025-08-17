@@ -1,0 +1,74 @@
+.leaderboard-container {
+  margin-top: 100px;
+  padding: 2rem;
+  max-width: 800px;
+  margin-inline: auto;
+  background-color: #153257;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.sort-controls {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.sort-controls button {
+  padding: 0.5rem 1rem;
+  background-color: #14213d;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sort-controls .active {
+  background-color: #fca311;
+  color: beige;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.leaderboard-container h1 {
+  margin-bottom: 1rem;
+  color: burlywood;
+}
+
+th, td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #14213d;
+  color: burlywood;
+}
+
+td {
+  font-size: 1rem;
+  color: beige;
+}
+
+@media (max-width: 600px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  th {
+    display: none;
+  }
+
+  td {
+    padding: 0.6rem;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+  }
+}
